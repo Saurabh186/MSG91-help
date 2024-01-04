@@ -1,0 +1,105 @@
+@import url(./Header.scss);
+@import url(./main.scss);
+@import url(./footer.scss);
+@import 'header';
+@import 'main';
+@import 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+
+// .header {
+    
+//    min-height: 237px;
+//     background:#156bb2;
+    
+//     .logo {
+//         width: 70px;
+//     }
+//     h1 {
+//         font-size: 44px;
+//         @media screen and (max-width:768px) {
+//     font-size: 36px;
+//         }        
+//         @media screen and (max-width:576px) {
+//             font-size: 30px;
+//                 }        
+//     }
+//     .search-bar {
+//         min-width: 260px;
+//         max-width: 769px;
+//         @media screen and (max-width:768px){
+//             max-width: 80vw;
+//         }
+//     border-radius: 4px;
+//     background: #fff;
+//     input {
+//         font-size: 15px;
+//         flex-grow: 1;
+//         border: none;
+//     }
+//     }
+// }
+
+
+
+
+// .catergory {
+//     background: rgba(246, 244, 244, 0.805);
+//    .d-grid {
+//     grid-template-columns: repeat( 3, 1fr);
+//     gap: 10px;
+//     @media screen and (max-width:1200px){
+//         grid-template-columns: repeat( 2, 1fr);  
+//     }
+//     @media screen and (max-width:992px){
+//         grid-template-columns: repeat( 1, 1fr);  
+//     }
+  
+//     @media screen and (max-width:576px){
+//         grid-template-columns: repeat( 1, 1fr);  
+//     }
+//    }
+//     .catergory-card{
+        
+//         min-height: 208px;
+//         background-color: white;
+//         @media screen and (max-width: 576px) {
+//             min-width: 200px;
+//         }
+//         .overlay {
+//             position: absolute;
+//             visibility: hidden;
+//             width: 100%;
+//             background-color: rgba(0, 0, 0, 0.8);
+//             height: 100%;
+//             top: 0;
+//             left: 0;
+//             font-size: 14px;
+//             cursor: pointer;
+//         }
+//         .card-text {
+//            color: #156bb2;
+//            font-size: 14px;
+//         }
+//         &:hover{
+//             .overlay{
+//                 visibility: visible;
+//             }
+//         }
+//     }
+// }
+
+
+// .footer{
+//     background: rgba(246, 244, 244, 0.805);
+//     .text-center {
+//         font-size: 12px;
+//     }
+// }

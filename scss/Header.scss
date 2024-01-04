@@ -1,0 +1,32 @@
+.header {
+    
+    min-height: 237px;
+     background:#156bb2;
+     
+     .logo {
+         width: 70px;
+     }
+     h1 {
+         font-size: 44px;
+         @media screen and (max-width:768px) {
+     font-size: 36px;
+         }        
+         @media screen and (max-width:576px) {
+             font-size: 30px;
+                 }        
+     }
+     .search-bar {
+         min-width: 260px;
+         max-width: 769px;
+         @media screen and (max-width:768px){
+             max-width: 80vw;
+         }
+     border-radius: 4px;
+     background: #fff;
+     input {
+         font-size: 15px;
+         flex-grow: 1;
+         border: none;
+     }
+     }
+ }
