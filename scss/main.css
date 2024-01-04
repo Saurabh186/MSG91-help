@@ -1,9 +1,9 @@
 .catergory {
-  background: rgba(246, 244, 244, 0.805);
+  background: var(--col-main-bg);
 }
 .catergory .d-grid {
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: var(--display-gap);
 }
 @media screen and (max-width: 1200px) {
   .catergory .d-grid {
@@ -22,7 +22,7 @@
 }
 .catergory .catergory-card {
   min-height: 208px;
-  background-color: white;
+  background-color: var(--col-catergory-card-bg);
 }
 @media screen and (max-width: 576px) {
   .catergory .catergory-card {
@@ -37,12 +37,12 @@
   height: 100%;
   top: 0;
   left: 0;
-  font-size: 14px;
+  font-size: var(--c-fs-8);
   cursor: pointer;
 }
 .catergory .catergory-card .card-text {
   color: #156bb2;
-  font-size: 14px;
+  font-size: var(--c-fs-8);
 }
 .catergory .catergory-card:hover .overlay {
   visibility: visible;

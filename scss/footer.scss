@@ -1,6 +1,6 @@
 .footer{
-    background: rgba(246, 244, 244, 0.805);
+    background: var(--col-footer-bg);
     .text-center {
-        font-size: 12px;
+        font-size: var(--c-fs-9);
     }
 }

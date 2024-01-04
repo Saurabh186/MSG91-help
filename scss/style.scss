@@ -1,9 +1,8 @@
-@import url(./Header.scss);
-@import url(./main.scss);
-@import url(./footer.scss);
+
 @import 'header';
 @import 'main';
 @import 'footer';
+@import 'var';
 
 *{
     margin: 0;

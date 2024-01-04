@@ -1,18 +1,18 @@
 .header {
     
     min-height: 237px;
-     background:#156bb2;
+     background:var(--col-nav-bg);
      
      .logo {
          width: 70px;
      }
      h1 {
-         font-size: 44px;
+         font-size: var(--c-fs-1);
          @media screen and (max-width:768px) {
-     font-size: 36px;
+     font-size: var(--c-fs-2);
          }        
          @media screen and (max-width:576px) {
-             font-size: 30px;
+             font-size: var(--c-fs-3);
                  }        
      }
      .search-bar {
@@ -24,9 +24,10 @@
      border-radius: 4px;
      background: #fff;
      input {
-         font-size: 15px;
+         font-size: var(--c-fs-8);
          flex-grow: 1;
          border: none;
+         outline: none;
      }
      }
  }

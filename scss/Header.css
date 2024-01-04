@@ -1,21 +1,21 @@
 .header {
   min-height: 237px;
-  background: #156bb2;
+  background: var(--col-nav-bg);
 }
 .header .logo {
   width: 70px;
 }
 .header h1 {
-  font-size: 44px;
+  font-size: var(--c-fs-1);
 }
 @media screen and (max-width: 768px) {
   .header h1 {
-    font-size: 36px;
+    font-size: var(--c-fs-2);
   }
 }
 @media screen and (max-width: 576px) {
   .header h1 {
-    font-size: 30px;
+    font-size: var(--c-fs-3);
   }
 }
 .header .search-bar {
@@ -30,7 +30,8 @@
   }
 }
 .header .search-bar input {
-  font-size: 15px;
+  font-size: var(--c-fs-8);
   flex-grow: 1;
   border: none;
+  outline: none;
 }/*# sourceMappingURL=Header.css.map */

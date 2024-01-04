@@ -1,24 +1,21 @@
-@import url(./Header.scss);
-@import url(./main.scss);
-@import url(./footer.scss);
 .header {
   min-height: 237px;
-  background: #156bb2;
+  background: var(--col-nav-bg);
 }
 .header .logo {
   width: 70px;
 }
 .header h1 {
-  font-size: 44px;
+  font-size: var(--c-fs-1);
 }
 @media screen and (max-width: 768px) {
   .header h1 {
-    font-size: 36px;
+    font-size: var(--c-fs-2);
   }
 }
 @media screen and (max-width: 576px) {
   .header h1 {
-    font-size: 30px;
+    font-size: var(--c-fs-3);
   }
 }
 .header .search-bar {
@@ -33,17 +30,18 @@
   }
 }
 .header .search-bar input {
-  font-size: 15px;
+  font-size: var(--c-fs-8);
   flex-grow: 1;
   border: none;
+  outline: none;
 }
 
 .catergory {
-  background: rgba(246, 244, 244, 0.805);
+  background: var(--col-main-bg);
 }
 .catergory .d-grid {
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: var(--display-gap);
 }
 @media screen and (max-width: 1200px) {
   .catergory .d-grid {
@@ -62,7 +60,7 @@
 }
 .catergory .catergory-card {
   min-height: 208px;
-  background-color: white;
+  background-color: var(--col-catergory-card-bg);
 }
 @media screen and (max-width: 576px) {
   .catergory .catergory-card {
@@ -77,22 +75,41 @@
   height: 100%;
   top: 0;
   left: 0;
-  font-size: 14px;
+  font-size: var(--c-fs-8);
   cursor: pointer;
 }
 .catergory .catergory-card .card-text {
   color: #156bb2;
-  font-size: 14px;
+  font-size: var(--c-fs-8);
 }
 .catergory .catergory-card:hover .overlay {
   visibility: visible;
 }
 
 .footer {
-  background: rgba(246, 244, 244, 0.805);
+  background: var(--col-footer-bg);
 }
 .footer .text-center {
-  font-size: 12px;
+  font-size: var(--c-fs-9);
+}
+
+:root {
+  --col-nav-bg:#156bb2;
+  --col-main-bg:rgba(246, 244, 244, 0.805);
+  --col-catergory-card-bg:rgb(255, 255, 255);
+  --col-footer-bg:rgba(246, 244, 244, 0.805);
+  --display-gap:16px;
+  --c-fs-1: 44px;
+  --c-fs-2: 36px;
+  --c-fs-3: 30px;
+  --c-fs-4: 28px;
+  --c-fs-5: 24px;
+  --c-fs-6: 20px;
+  --c-fs-7: 16px;
+  --c-fs-8: 14px;
+  --c-fs-9: 12px;
+  --c-fw-400: 400;
+  --c-fw-600: 600;
 }
 
 * {
